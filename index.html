@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/logo.png" type="image/png">
+    <title>Drvogradnja</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header id="home">
+        <!-- navbar -->
+        <nav id="nav">
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <img src="./image/logo.png" class="logo" alt="logo" />
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">Naslovna</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="scroll-link">Proizvodi</a>
+                        </li>
+                        <li>
+                            <a href="#tours" class="scroll-link">Usluge</a>
+                        </li>
+                        <li>
+                            <a href="#description" class="scroll-link">O Nama</a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="scroll-link">Galerija</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1 id="type"></h1>
+                <p class="text-p">
+                    PROIZVODNJA STOLARIJE I GALANTERIJE OD DRVETA
+                </p>
+                <a href="#tours" class="scroll-link btn btn-white">PROIZVODI</a>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="item1 items"><i class="fas fa-home icon"></i><p>PRIRODNI MATERIJAL</p></div>
+        <div class="item2 items"><i class="fas fa-watch icon"></i><p>DUGOTRRAJNOST</p></div>
+        <div class="item3 items"><i class="fas fa-sun icon"></i><p>TOPLOTNA IZOLACIJA</p></div>
+        <div class="item4 items"><i class="far fa-volume icon"></i><p>ZVUCNA IZOLACIJA</p></div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+        <h2>PROIZVODI</h1>
+        <div class="border"></div>
+        <!-- <div class="about-center section-center"> -->
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">VRATA</button>
+                    <button class="tab-btn" data-id="vision">PROZORI</button>
+                    <button class="tab-btn" data-id="goals">KUHINJE</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>Vrata</h4>
+                        <p>
+                            Izrada građevinske stolarije se vrši od čamove daske, kao i od lameliranog drveta. Vrata se proizvode i od medijapana u
+                            širokoj kutiji koja pokriva širinu zida sa štelujućim pervajz lajsnama. Površinska obrada po želji kupaca može se vršiti
+                            lazurnim i pokrivnim poliuretanskim i vodenim bojama.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>Prozori</h4>
+                        <p>
+                        Profil od kog se izrađuju drveni prozori je od troslojno lameliranog drveta isključivo od prvoklasne gradje (bez čvora)
+                        namenjene za drvenu stolariju. Drvo kao najplemenitiji materijal pružiće vam mnogostruko više u odnosu u ono šta u njega
+                        uložite, uz blagovremeno održavanje prirodnošću i lepotom krasiće vaš dom i davati mu nezamenljivu toplinu.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>Kuhinje</h4>
+                        <p>
+                            Dolazimo i pomažemo u odabiru i sklapanju kuhinja. Cene zavise od vrste kuhinja, delova koji izaberete, kao i od
+                            dimenzija vaših kuhinja. Tri glavne osobenost koje karakterišu naše kuhinje po meri jesu kvalitet izrade, preciznost
+                            montaže i poštovanje rokova. Pogledajte kuhinje koje je naš tim sklopio i montirao!
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        <!-- </div> -->
+    </section>
+    <!-- contact -->
+    <section id="tours" class="section">
+            <h2>USLUGE</h2>
+            <div class="border"></div>
+            <div class="section-center">
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>ISPLATIVA <span>RESENJA</span></p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Najbolji odnos cene i kvaliteta uz različite mogućnosti plaćanja uz garanciiju od 5 godina.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>DUGOGODISNJE <span>ISKUSTVO</span></p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Uspešnost i produktivnost firme dugujemo profesionalnom timu ljudi sa višegodišnjim iskustvom.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>CIST <span>PROZIVOD</span></p>
+                        <!-- button -->
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Mi brinemo i o prirodi jer su naši proizvodi izrađeni po najvišim ekološkim standardima.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                </section>
+        
+    </section>
+    <section id="description" class="section">
+        <h2>O NAMA</h2>
+        <div class="border"></div>
+        <p class="description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Voluptatem neque nisi quibusdam expedita delectus architecto 
+            similique provident natus eos omnis aspernatur pariatur 
+            doloribus ipsum, sequi quidem numquam corrupti vero esse?
+        </p>
+        <p class="description-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatem neque nisi quibusdam expedita delectus architecto
+            similique provident natus eos omnis aspernatur pariatur
+            doloribus ipsum, sequi quidem numquam corrupti vero esse?
+            <br>
+            <br>
+            <a href="#" class="btn btn-white">Vise o nama<i class="fal fa-arrow-right"></i></a>
+        </p>
+       
+    </section>
+    <section class="gallery-section" id="gallery">
+        <div class="inner-width">
+            <h2>OVO SU NEKI OD NASIH RADOVA</h2>
+            <div class="border"></div>
+            <div class="gallery">
+    
+                <a href="image/Borstil-vrata-6.jpg" class="image">
+                    <img src="image/img-1.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-7.jpg" class="image">
+                    <img src="image/img-2.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-17.jpg" class="image">
+                    <img src="image/img-3.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-3.jpg" class="image">
+                    <img src="image/img-4.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-8.jpg" class="image">
+                    <img src="image/img-5.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-5.jpg" class="image">
+                    <img src="image/img-6.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-vrata-4.jpg" class="image">
+                    <img src="image/img-7.jpg" alt="">
+                </a>
+    
+                <a href="image/Borstil-kuhinja-1.jpg" class="image">
+                    <img src="image/img-8.jpg" alt="">
+                </a>
+    
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+        <p>
+            copyright &copy; Darko Djukic
+            <span id="date"></span>. all rights reserved
+        </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="./js/scroll.js"></script>
+    <script src="./js/type.js"></script>
+    <script src="./js/tab.js"></script>
+    <script src="./js/qia.js"></script>
+    <script>
+        $(".gallery").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{
+        enabled: true
+        }
+        });
+    </script>
+</body>
+
+</html>
